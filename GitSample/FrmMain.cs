@@ -40,7 +40,7 @@ namespace GitSample
 
             txtResult.Text = (value1 * value2).ToString();
         }
-
+        // コメント
         private void button1_Click(object sender, EventArgs e)
         {
             double value1 = double.Parse(txtExpression1.Text);
