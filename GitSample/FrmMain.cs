@@ -30,7 +30,7 @@ namespace GitSample
             int value1 = int.Parse(txtExpression1.Text);
             int value2 = int.Parse(txtExpression2.Text);
 
-            txtResult.Text = (value1 + value2).ToString();
+            txtResult.Text = (value1 - value2).ToString();
         }
     }
 }
