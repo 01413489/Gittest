@@ -32,5 +32,13 @@ namespace GitSample
 
             txtResult.Text = (value1 - value2).ToString();
         }
+
+        private void btnMultiple_Click(object sender, EventArgs e)
+        {
+            int value1 = int.Parse(txtExpression1.Text);
+            int value2 = int.Parse(txtExpression2.Text);
+
+            txtResult.Text = (value1 * value2).ToString();
+        }
     }
 }
