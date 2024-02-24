@@ -40,5 +40,14 @@ namespace GitSample
 
             txtResult.Text = (value1 * value2).ToString();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double value1 = double.Parse(txtExpression1.Text);
+            double value2 = double.Parse(txtExpression2.Text);
+
+            txtResult.Text = (value1 / value2).ToString();
+
+        }
     }
 }
